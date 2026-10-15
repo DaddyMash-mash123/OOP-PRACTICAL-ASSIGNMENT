@@ -1,0 +1,25 @@
+===== BANK ACCOUNT DEMO =====
+
+Account: S001
+Initial balance: $1000.0
+Savings withdrawal rejected: minimum balance of $500.0 must be maintained.
+Balance after withdrawal: $1000.0
+Savings account interest added: $20.0
+Balance after month-end: $1020.0
+
+Account: C001
+Initial balance: $500.0
+Current withdrawal successful: $700.0
+Balance after withdrawal: $-200.0
+Current account maintenance fee deducted: $10.0
+Balance after month-end: $-210.0
+
+===== SAVINGS EDGE CASE =====
+Initial balance: $1000.0
+Savings withdrawal rejected: minimum balance of $500.0 must be maintained.
+Balance: $1000.0
+
+===== CURRENT ACCOUNT OVERDRAFT =====
+Initial balance: $500.0
+Current withdrawal successful: $700.0
+Balance after overdraft: $-200.0
